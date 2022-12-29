@@ -1,0 +1,28 @@
+{
+  "name": "discojackjs",
+  "version": "1.0.0",
+  "description": "A fork of DiscoJack refactored using Node and Discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickheyer/DiscoJackJS.git"
+  },
+  "keywords": [
+    "Discord",
+    "Casino",
+    "Blackjack",
+    "Node"
+  ],
+  "author": "Nicholas W. Heyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickheyer/DiscoJackJS/issues"
+  },
+  "homepage": "https://github.com/nickheyer/DiscoJackJS#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
