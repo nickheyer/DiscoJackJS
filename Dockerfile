@@ -1,6 +1,6 @@
 FROM node:16-alpine
 
-# Creating dir for Discord bot app
+# Creating dir for app
 WORKDIR /usr/src/app
 
 # Copy dependecy list to app directory
@@ -13,5 +13,5 @@ RUN npm install
 COPY . .
 
 # Entrypoint
-CMD ["node", "."]
+CMD ["npm", "start"]
 
